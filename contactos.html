@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.ico" type="image/x-icon">
+    <title>AIDOAA - Contacto</title>
+
+</head>
+<body>
+    <div class="navegador">
+	<header><h1><img src="logo1.png" width="auto" height="100px"> AIDOAA</h1></header>
+        <a href="index.html">INICIO</a>
+        <a href="productos.html">PRODUCTOS</a>
+        <a href="informacion.html">INFORMACIÓN</a>
+        <a href="contactos.html">CONTACTO</a>
+    </div>
+    <div class="contenido">
+	<center>
+        <h2>Formulario de Contacto</h2>
+	<br>
+        <form action="contacto.php" name="contacto" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+    
+            <label for="correo">Correo:</label><br>
+            <input type="email" id="correo" name="correo" required><br><br>
+    
+            <label for="producto">Producto:</label><br>
+            <textarea id="producto" name="producto" rows="4" cols="50" maxlength="250"></textarea>
+            <br>
+            <br>
+            <input type="hidden" name="registro" value="1">
+            <input type="submit" value="Enviar">
+        </form>
+	<br>
+	<br>
+	</center>
+    </div>
+    <div class="FOOTER">
+    <footer>Copyright © AIDOAA. Todos los derechos reservados.</footer>
+    </div>
+</body>
+</html>
